@@ -37,7 +37,7 @@
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+                          	        &trans     &trans       &kp SPACE      &kp RET  &trans   &trans
                         >;
                 };
 
@@ -133,40 +133,40 @@
             bindings = <&kp J>;
         };
 
-        combo_minus {
-            timeout-ms = <50>;
-            key-positions = <24 25>;
-            bindings = <&kp MINUS>;
-        };
-
         combo_fslh {
             timeout-ms = <50>;
-            key-positions = <25 26>;
+            key-positions = <24 25>;
             bindings = <&kp FSLH>;
         };
 
         combo_dot {
             timeout-ms = <50>;
-            key-positions = <26 27>;
+            key-positions = <25 26>;
             bindings = <&kp DOT>;
         };
 
         combo_comma {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <26 27>;
             bindings = <&kp COMMA>;
         };
 
         combo_m {
             timeout-ms = <50>;
-            key-positions = <28 29>;
-            bindings = <&kp M>;
+            key-positions = <27 28>;
+            bindings = <&kp m>;
         };
 
         combo_n {
             timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&kp N>;
+            key-positions = <28 29>;
+            bindings = <&kp n>;
+        };
+
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 >;12
+            bindings = <&kp ESC>;
         };
 
         combo_mo1 {
